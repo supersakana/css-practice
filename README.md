@@ -6,10 +6,10 @@ I've been studying front-end tech for about 4 months now, this is going to be a 
 
 That's it!
 
-
 GRID
 <------->
-- Made for unique responsive designs 
+
+- Made for unique responsive designs
 
 - Can be used with Flexbox to create layouts
 
