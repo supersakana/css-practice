@@ -1,3 +1,4 @@
+/* Utility */
 *,
 *::before,
 *::after {
@@ -29,7 +30,6 @@ h1 {
 }
 .section-two {
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -167,7 +167,8 @@ h1 {
 
 .grid-container3 {
   height: 45vh;
-  width: 98%;
+  width: 50%;
+  margin: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -229,6 +230,152 @@ h1 {
 .n10 {
   grid-area: n10;
   background-color: #8115e8;
+}
+
+/* Layout 4 */
+
+.grid-container4 {
+  height: 45vh;
+  width: 50%;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "o1 o2 o3 o4 o5 o6 o7 o8 o9 o10 o11 o12"
+    "o13 o13 o14 o14 o15 o15 o16 o16 o17 o17 o18 o18"
+    "o19 o19 o19 o20 o20 o20 o21 o21 o21 o22 o22 o22"
+    "o23 o23 o23 o23 o24 o24 o24 o24 o25 o25 o25 o25"
+    "o26 o26 o26 o26 o26 o26 o27 o27 o27 o27 o27 o27"
+    "o28 o28 o28 o28 o28 o28 o28 o28 o28 o28 o28 o28";
+
+  grid-gap: 0.2rem;
+}
+
+.grid-container4 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #909090;
+}
+
+.o1 {
+  grid-area: o1;
+}
+
+.o2 {
+  grid-area: o2;
+}
+
+.o3 {
+  grid-area: o3;
+}
+
+.o4 {
+  grid-area: o4;
+}
+
+.o5 {
+  grid-area: o5;
+}
+
+.o6 {
+  grid-area: o6;
+}
+
+.o7 {
+  grid-area: o7;
+}
+
+.o8 {
+  grid-area: o8;
+}
+
+.o9 {
+  grid-area: o9;
+}
+
+.o10 {
+  grid-area: o10;
+}
+
+.o11 {
+  grid-area: o11;
+}
+
+.o12 {
+  grid-area: o12;
+}
+
+.o13 {
+  grid-area: o13;
+}
+
+.o14 {
+  grid-area: o14;
+}
+
+.o15 {
+  grid-area: o15;
+}
+
+.o16 {
+  grid-area: o16;
+}
+
+.o17 {
+  grid-area: o17;
+}
+
+.o18 {
+  grid-area: o18;
+}
+
+.o19 {
+  grid-area: o19;
+}
+
+.o20 {
+  grid-area: o20;
+}
+
+.o21 {
+  grid-area: o21;
+}
+
+.o22 {
+  grid-area: o22;
+}
+
+.o23 {
+  grid-area: o23;
+}
+
+.o24 {
+  grid-area: o24;
+}
+
+.o25 {
+  grid-area: o25;
+}
+
+.o26 {
+  grid-area: o26;
+}
+
+.o27 {
+  grid-area: o27;
+}
+
+.o28 {
+  grid-area: o28;
 }
 
 /* MEDIA QUERIES */
