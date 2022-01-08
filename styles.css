@@ -169,7 +169,7 @@ h1 {
 .grid-container1 {
   height: 50vh;
   width: 50%;
-  margin: 10px;
+  margin: 0.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
@@ -229,7 +229,7 @@ h1 {
 .grid-container2 {
   height: 50vh;
   width: 50%;
-  margin: 10px;
+  margin: 0.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -299,7 +299,7 @@ h1 {
 .grid-container3 {
   height: 45vh;
   width: 50%;
-  margin: 10px;
+  margin: 0.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -368,7 +368,7 @@ h1 {
 .grid-container4 {
   height: 45vh;
   width: 50%;
-  margin: 10px;
+  margin: 0.2rem;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5, 1fr);
